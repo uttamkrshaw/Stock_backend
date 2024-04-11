@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25cdba6d.css",
+    "main.js": "/static/js/main.ba46a4fc.js",
+    "static/js/453.34a6600d.chunk.js": "/static/js/453.34a6600d.chunk.js",
+    "static/media/user2.png": "/static/media/user2.1ed1f37f20781d4ee47f.png",
+    "static/media/certificate.PNG": "/static/media/certificate.227ac981656abac46819.PNG",
+    "static/media/user5.png": "/static/media/user5.2fee4326be3fde5ec55e.png",
+    "static/media/AllTutorsForm.png": "/static/media/AllTutorsForm.ef6f54973c296fda560f.png",
+    "static/media/WhatOffer.png": "/static/media/WhatOffer.ef46cd138d864a00b94a.png",
+    "static/media/user4.png": "/static/media/user4.f253032a15228155b376.png",
+    "static/media/ayushi.png": "/static/media/ayushi.1db4d9ba8da22a5966ab.png",
+    "static/media/udit.png": "/static/media/udit.7b7ac389a74e16fab628.png",
+    "static/media/sachin.png": "/static/media/sachin.c7e4ca982456b6b06e8e.png",
+    "static/media/bgimg.jpg": "/static/media/bgimg.eda7ce8fb659ba747fc7.jpg",
+    "static/media/derivative.png": "/static/media/derivative.1df446cf8a2185b8d948.png",
+    "static/media/funda.png": "/static/media/funda.e240387d5462dec605f7.png",
+    "static/media/SquareLogo.png": "/static/media/SquareLogo.64d398c33bbda2992157.png",
+    "static/media/Basics.png": "/static/media/Basics.0ad1984a6e5c12106215.png",
+    "static/media/technical.png": "/static/media/technical.ba51c60d2d432b4495ff.png",
+    "index.html": "/index.html",
+    "main.25cdba6d.css.map": "/static/css/main.25cdba6d.css.map",
+    "main.ba46a4fc.js.map": "/static/js/main.ba46a4fc.js.map",
+    "453.34a6600d.chunk.js.map": "/static/js/453.34a6600d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25cdba6d.css",
+    "static/js/main.ba46a4fc.js"
+  ]
+}
