@@ -14,7 +14,7 @@ const newOrderId = async (req, res) => {
                 'x-api-version': '2023-08-01',
                 'content-type': 'application/json',
                 'x-client-id': process.env.cashfree_app_id,
-                'x-client-secret': 'cfsk_ma_test_f49cd334277511bc43d7e8aed8c46363_df8db114'
+                'x-client-secret': process.env.cashfree_secret_key
             },
             data: {
                 customer_details: {
@@ -56,7 +56,7 @@ const checkStatus = async (req, res) => {
                 accept: 'application/json',
                 'x-api-version': '2023-08-01',
                 'x-client-id': process.env.cashfree_app_id,
-                'x-client-secret': 'cfsk_ma_test_f49cd334277511bc43d7e8aed8c46363_df8db114'
+                'x-client-secret': process.env.cashfree_secret_key
             }
         }
         axios
@@ -95,7 +95,7 @@ const changeToTerminateStatus = async (props) => {
             'x-api-version': '2023-08-01',
             'content-type': 'application/json',
             'x-client-id': process.env.cashfree_app_id,
-            'x-client-secret': 'cfsk_ma_test_f49cd334277511bc43d7e8aed8c46363_df8db114'
+            'x-client-secret': process.env.cashfree_secret_key
         },
         data: {
             order_status: "TERMINATED"
