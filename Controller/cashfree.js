@@ -11,7 +11,7 @@ const newOrderId = async (req, res) => {
             url: 'https://sandbox.cashfree.com/pg/orders',
             headers: {
                 accept: 'application/json',
-                'x-api-version': '2023-08-01',
+                'x-api-version': process.env.apiversion,
                 'content-type': 'application/json',
                 'x-client-id': process.env.cashfree_app_id,
                 'x-client-secret': process.env.cashfree_secret_key
@@ -54,7 +54,7 @@ const checkStatus = async (req, res) => {
             url: `https://sandbox.cashfree.com/pg/orders/${orderid}`,
             headers: {
                 accept: 'application/json',
-                'x-api-version': '2023-08-01',
+                'x-api-version': process.env.apiversion,
                 'x-client-id': process.env.cashfree_app_id,
                 'x-client-secret': process.env.cashfree_secret_key
             }
@@ -92,7 +92,7 @@ const changeToTerminateStatus = async (props) => {
         url: `https://sandbox.cashfree.com/pg/orders/${props}`,
         headers: {
             accept: 'application/json',
-            'x-api-version': '2023-08-01',
+            'x-api-version': process.env.apiversion,
             'content-type': 'application/json',
             'x-client-id': process.env.cashfree_app_id,
             'x-client-secret': process.env.cashfree_secret_key
@@ -123,7 +123,7 @@ const getTerminateReason = async (props) => {
         url: `https://sandbox.cashfree.com/pg/orders/${props}/payments`,
         headers: {
             accept: 'application/json',
-            'x-api-version': '2023-08-01',
+            'x-api-version': process.env.apiversion,
             'x-client-id': process.env.cashfree_app_id,
             'x-client-secret': process.env.cashfree_secret_key
         }
